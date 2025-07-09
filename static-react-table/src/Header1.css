@@ -1,0 +1,16 @@
+
+.breadcrumb-container {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.breadcrumb-separator {
+  margin: 0 4px;
+}
+
+.breadcrumb-current {
+  font-weight: 500;
+  color: #111827;
+}

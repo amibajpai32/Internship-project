@@ -1,0 +1,40 @@
+.header2-container {
+  display: flex;
+  justify-content: space-between; /* left & right sides */
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.header2-left,
+.header2-right {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.header2-button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.header2-button.active {
+  background-color: #1f2937; /* dark for active */
+  color: white;
+  border: none;
+}
+
+.header2-button.inactive {
+  background-color: white;
+  color: #374151;
+  border: 1px solid #d1d5db;
+}
+
+.header2-button.inactive:hover {
+  background-color: #f3f4f6;
+}

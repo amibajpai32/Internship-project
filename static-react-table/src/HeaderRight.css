@@ -1,0 +1,47 @@
+.header-right-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  padding: 12px 24px;
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+  width: 100%;
+  box-sizing: border-box;
+  flex-wrap: nowrap; /* ❗ prevent wrapping to next line */
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.user-icon {
+  width: 18px;
+  height: 18px;
+  color: #4b5563;
+}
+
+.user-name {
+  font-size: 14px;
+  color: #374151;
+}
+
+.new-action-button {
+  background-color: #16a34a;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap; /* ❗ prevent button text from wrapping */
+  transition: background-color 0.2s ease;
+}
+
+.new-action-button:hover {
+  background-color: #15803d;
+}
